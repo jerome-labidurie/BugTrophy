@@ -31,10 +31,14 @@ During startup, an image is displayed. You need a b&w png image of 200x200px
 See otarie.png as exemple.
 
 Convert (with imagemagick) the png image to .h file for inclusion in the code :
+```bash
  convert otarie.png  -background white -alpha remove -monochrome -define h:format=gray -compress none -depth 1 otarie.h
+```
 
 ### font
 The included font is created from DejaVu font. https://dejavu-fonts.github.io/
 
 To created the .h file, use fontconvert from Adafruit_GFX
+```bash
  ./fontconvert /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf 16 32 255 > DejaVuSansMono16pt8b.h
+```
