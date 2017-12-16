@@ -2,6 +2,8 @@
 
 A developper trophy for the best bug !
 
+![trophy](images/trophy.jpg)
+
 * 3D printed bug for the trophy
 * laser cutted pedestal (plexiglass 4mm)
 * epaper display to show best quotes from the developper
